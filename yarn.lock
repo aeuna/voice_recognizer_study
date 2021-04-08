@@ -9541,6 +9541,13 @@ react-app-polyfill@^2.0.0:
     regenerator-runtime "^0.13.7"
     whatwg-fetch "^3.4.1"
 
+react-countdown-circle-timer@^2.5.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/react-countdown-circle-timer/-/react-countdown-circle-timer-2.5.1.tgz#39da76e91bd78b5424f683ea02a6498f4df66834"
+  integrity sha512-cfzr6dgc/rYFpx3CXXgFnpqti7edFX7eUOP7YPGUfa4MefvrLh8J1zzgVURfVFBDB207PrK7DNK7iYkf2H5YkQ==
+  dependencies:
+    use-elapsed-time "2.1.6"
+
 react-dev-utils@^11.0.3:
   version "11.0.4"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-11.0.4.tgz#a7ccb60257a1ca2e0efe7a83e38e6700d17aa37a"
@@ -9584,6 +9591,11 @@ react-error-overlay@^6.0.9:
   version "6.0.9"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.9.tgz#3c743010c9359608c375ecd6bc76f35d93995b0a"
   integrity sha512-nQTTcUu+ATDbrSD1BZHr5kgSD4oF8OFjxun8uAaL8RwPBacGBNPf/yAuVVdx17N8XNzRDMrZ9XcKZHCjPW+9ew==
+
+react-icons@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-4.2.0.tgz#6dda80c8a8f338ff96a1851424d63083282630d0"
+  integrity sha512-rmzEDFt+AVXRzD7zDE21gcxyBizD/3NqjbX6cmViAgdqfJ2UiLer8927/QhhrXQV7dEj/1EGuOTPp7JnLYVJKQ==
 
 react-is@^16.8.1:
   version "16.13.1"
@@ -11525,6 +11537,11 @@ url@^0.11.0:
   dependencies:
     punycode "1.3.2"
     querystring "0.2.0"
+
+use-elapsed-time@2.1.6:
+  version "2.1.6"
+  resolved "https://registry.yarnpkg.com/use-elapsed-time/-/use-elapsed-time-2.1.6.tgz#8ad0c0054a1ba7bf881540855b5eb2d60ff501be"
+  integrity sha512-6h6bY63oto1REUqcID3Goedgl5tVqWXsLzUSJ6EB9VprqZqnO5VDo1kkQqY/6V5Jc4Wu4XUgW3B8aDUHG2KRcA==
 
 use@^3.1.0:
   version "3.1.1"

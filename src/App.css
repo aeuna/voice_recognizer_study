@@ -1,38 +1,349 @@
-.App {
+* {
+  font-family: "Arial";
+  box-sizing: border-box;
+}
+
+span {
+  font-size: 14px;
+  color: #606876;
+}
+
+.z2 {
+  z-index: 2;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.cursor_pointer {
+  cursor: pointer;
+}
+
+.btn {
+  height: 48px;
+  font-size: 12px;
+  display: inline-block;
+  line-height: 48px;
+  border-radius: 4px;
+  cursor: pointer;
+  padding-left: 8px;
+  padding-right: 8px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-success {
+  background-color: #7a5de8;
+  color: white;
+  margin: 7px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-danger {
+  background-color: red;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.fl {
+  width: 400px;
+  height: 300px;
+  border: 1px #d8d8d8;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 20px;
+  box-shadow: 1px 1px 11px 1px #d8d8d8;
+  padding: 130px 10px;
+  margin: 0px 205px;
+  cursor: pointer;
+}
+
+.fm {
+  font-size: 14px;
+}
+
+.fs {
+  font-size: 12px;
+}
+
+.default_textarea {
+  resize: none;
+  border: 1px solid #dcdcdc;
+  border-radius: 3px;
+  font-family: "Arial";
+}
+
+.default_input {
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #d8dde6;
+  padding-left: 8px;
+  font-size: 14px;
+  transition: 0.2s all linear;
+  outline: none;
+}
+
+.default_input:focus {
+  border: 1px solid #7a5de8 !important;
+}
+.default_input:active {
+  border: 1px solid #7a5de8 !important;
+}
+.default_input:hover {
+  border: 1px solid #7a5de8 !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fdr {
   display: flex;
+  flex-direction: row;
+}
+
+.fdc {
   flex-direction: column;
+}
+
+.aic {
   align-items: center;
+}
+
+.jcc {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.jce {
+  justify-content: flex-end;
+}
+
+.w30 {
+  width: 30px !important;
+}
+
+.w40 {
+  width: 40px !important;
+}
+
+.w100 {
+  width: 100px;
+}
+
+.w200 {
+  width: 200px;
+}
+
+.w400 {
+  width: 400px;
+}
+
+.h40 {
+  height: 40px !important;
+}
+
+.ml16 {
+  margin-left: 16px;
+}
+
+.p8 {
+  padding: 8px;
+}
+
+.p16 {
+  padding: 16px;
+}
+
+.pt8 {
+  padding-top: 8px;
+}
+
+.pt16 {
+  padding-top: 16px;
+}
+
+.pb16 {
+  padding-bottom: 16px;
+}
+
+.pl8 {
+  padding-left: 8px;
+}
+
+.pl16 {
+  padding-left: 16px;
+}
+
+.pr16 {
+  padding-right: 16px;
+}
+
+.bg_red {
+  background-color: red;
+}
+
+.bg_white {
+  background-color: white;
+}
+
+.bg_black {
+  background-color: #151151;
+}
+
+.flex {
+  display: flex;
+}
+
+.problem {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+
+.dNone {
+  display: none;
+}
+
+.f1 {
+  flex: 1;
+}
+
+.vw100 {
+  width: 100vw;
+}
+
+.vh100 {
+  height: 100vh;
+}
+
+.posFx {
+  position: fixed;
+}
+
+.posAb {
+  position: absolute;
+}
+
+.top0 {
+  top: 0px;
+}
+
+.left0 {
+  left: 0px;
+}
+
+.right0 {
+  right: 0px;
+}
+
+.color_white {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.color_red {
+  color: red;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.pr {
+  position: relative;
+}
+
+.card {
+  cursor: pointer;
+  width: 200px;
+  height: 100px;
+  margin: 4px;
+  padding: 16px;
+  border-radius: 4px;
+  border: 1px solid #7a5de8;
+  transition: 0.2s all linear;
+}
+
+.card:hover {
+  background-color: #7a5de8;
+  color: white;
+}
+
+.chat_card {
+}
+
+.chat_card:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.emojiRec {
+  height: 23px;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-right: 4px;
+  border-radius: 1px solid #dcdcdc;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.emojiRec:hover {
+  background-color: #dcdcdc;
+}
+
+.emojiRec.active {
+  border: 2px solid #28b496;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+@-webkit-keyframes load1 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0;
+    height: 4em;
   }
-  to {
-    transform: rotate(360deg);
+  40% {
+    box-shadow: 0 -2em;
+    height: 5em;
   }
+}
+@keyframes load1 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0;
+    height: 4em;
+  }
+  40% {
+    box-shadow: 0 -2em;
+    height: 5em;
+  }
+}
+
+.timer-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.timer {
+  font-family: "Montserrat";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  color: #aaa;
+}
+
+.value {
+  font-size: 40px;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
 }
